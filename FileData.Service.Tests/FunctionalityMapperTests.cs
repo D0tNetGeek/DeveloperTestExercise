@@ -35,6 +35,8 @@ namespace FileData.Service.Tests
             var functionalityMapper = new FunctionalityMapper();
 
             functionalityMapper.GetFunctionalityAssociatedTo("-a");
+            functionalityMapper.GetFunctionalityAssociatedTo(null);
+            functionalityMapper.GetFunctionalityAssociatedTo(string.Empty);
         }
     }
 }
