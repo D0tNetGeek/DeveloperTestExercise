@@ -48,6 +48,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\FileData.Service\FileData.Service.csproj">
+      <Project>{ca3728bd-8565-4600-bd4f-0fec90b65c29}</Project>
+      <Name>FileData.Service</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ThirdPartyTools\ThirdPartyTools.csproj">
       <Project>{16add673-64b2-43c8-92d9-ea5f2cc6863f}</Project>
       <Name>ThirdPartyTools</Name>
